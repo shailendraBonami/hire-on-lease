@@ -7,7 +7,7 @@ export default function Home({ data }) {
   console.log(data, "name");
   return (
     <main className="min-h-screen">
-      {/* <NavBar /> */}
+      <NavBar />
       {/* <Banner label="About Us" breadCrumbLabel="About" imageUrl="" /> */}
       {/* <LetsConnect/> */}
     </main>
