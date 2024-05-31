@@ -1,3 +1,5 @@
+import Footer from "@/components/Footer";
+import LetsConnect from "@/components/LetsConnect";
 import NavBar from "@/components/NavBar";
 
 export default function Home({ data }) {
