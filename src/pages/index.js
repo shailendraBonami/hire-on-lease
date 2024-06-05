@@ -4,11 +4,13 @@ import LetsConnect from "@/components/LetsConnect";
 import NavBar from "@/components/NavBar";
 
 export default function Home({ data }) {
-  console.log(data, "name");
   return (
     <main className="min-h-screen bg-gradient-to-r from-[#EFEBED] to-[#F3F2FB]">
-      <NavBar />
-      <Banner label="About Us" breadCrumbLabel="About" imageUrl="/assets/aboutBanner.svg" />
+      <Banner
+        label="About Us"
+        breadCrumbLabel="About"
+        imageUrl="/assets/aboutBanner.svg"
+      />
       {/* <LetsConnect/> */}
     </main>
   );
