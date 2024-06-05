@@ -3,9 +3,9 @@ import React from "react";
 const LetsConnect = () => {
   return (
     <div className="relative">
-      <div className="bg-[#bcb9bc] p-1 w-[80%] rounded-xl ">
+      <div className="bg-[#bcb9bc] p-1 rounded-xl ">
         <div className="w-full flex flex-col items-center shadow-custom px-10 py-14 rounded-lg gap-4 bg-white bg-gradient-to-r from-[#FAECEC] to-[#F0EBED]">
-          <h1 className="font-bold text-4xl bg-gradient-to-r from-[#110054] to-[#ED4542] text-transparent bg-clip-text">
+          <h1 className="font-bold text-4xl bg-gradient-90 from-[#110054] to-[#ED4542] text-transparent bg-clip-text">
             {`Let's Connect`}
           </h1>
           <div className="p-2 leading-8	font-medium">
